@@ -24,7 +24,7 @@ public class ObjectOrientedDemo {
         //staff1.hoursWorked = 160;
         
         Staff staff2 = new Staff("Jane", "Lee");
-        staff2.setHoursWorked(150);
+        staff2.setHoursWorked(160);
         pay = staff2.calculatePay();
         System.out.println("Pay = " + pay);
         
